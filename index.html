@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+    <title>State of Michigan</title>
+    <link rel="stylesheet" href="CSS/home page stylesheet.css">
+    <script src="JS/main_page_java"></script>
+    </head>
+<body class="container">
+
+    <!--HEADER/NAV SECTION-->
+
+<div id="head">
+<header>
+    <img src="Home Page photos/pure michigan banner.jpg" alt="broken image" id="banner">
+    <nav id="nav">
+        <a href="index.html" class="nav">Home</a>
+        <a href="lansing.html" class="nav">Lansing</a>
+        <a href="hancock.html" class="nav">Hancock</a>
+        <a href="Marquette.html" class="nav">Marquette</a>
+    </nav>
+</header>
+</div>
+
+    <!-- MAIN CONTENT-->
+<div class="wrapper">
+    <div>
+    <section>
+<img src="Home Page photos/welcome photo.jpg" alt="broken image" id="home">
+
+<h1>Welcome to Michigan: America's high five!</h1>
+
+    <p>Michigan, the only state in the U.S. that's split into two distinct peninsulas, is a unique and vibrant destination. Surrounded by four of the five Great Lakes, Michigan boasts more coastline than any state in the continental U.S., offering an abundance of water-based activities from boating and fishing to exploring historic lighthouses and pristine beaches.</p>
+    <p>The Lower Peninsula, often likened to a mitten due to its shape, is home to bustling cities like Detroit, Grand Rapids, and Lansing, the state capital. Detroit, known as the "Motor City," has a rich automotive history and is a hub for innovation, culture, and music. Grand Rapids, the second-largest city, is renowned for its vibrant arts scene and numerous craft breweries.</p>
+    <p>The Upper Peninsula, or "U.P." as locals call it, is a nature lover's paradise. With dense forests, stunning waterfalls, and rugged terrain, it's perfect for outdoor adventures like hiking, camping, and snowmobiling. The U.P. is not only home to myself, but also home to the iconic Mackinac Bridge, which connects the two peninsulas and stands as a testament to Michigan's engineering prowess.</p>   
+    <p>Beyond its natural beauty and vibrant cities, Michigan is known for its rich history and diverse culture. From the Henry Ford Museum in Dearborn to the iconic Motown sound that emerged from Detroit, there's something for everyone to discover.</p>
+    <p>Whether you're exploring the bustling streets of Detroit, enjoying a day on the shores of Lake Huron, or taking in the serene landscapes of the Upper Peninsula, Michigan offers an experience that is as diverse as its geography. We invite you to explore the Great Lakes State and discover all it has to offer.</p>
+
+</section> 
+    </div> 
+    <!-- ASIDE SECTION -->
+    <div> 
+<aside>
+    <h3>Noteable Dates</h3>
+        <ul>
+            <li>Admitted to the Union: January 26th, 1837 </li>
+        </ul>
+    <h3>Population:</h3>
+        <ul>
+            <strong><li>Total: </strong>10,077,331</li>
+            <strong><li>Rank:</strong> 10th in country</li>
+            <strong><li>Density:</strong> 174/sq mi (67.1/km2)</li>
+            <strong><li>Median Household Income:</strong> $54,900</li>
+        </ul>
+<img src="Home Page photos/michigan_map.jpg" class="thumbnail" alt="broken image" height="325px" width="325px">
+
+<h3>Join our Mailing List!</h3>
+<form>
+    <form class="theForm">
+        <input type="text" id="name" class="fields" name="name" placeholder="First Name">
+        <input type="text" id="name" class="fields" name="name" placeholder="Last Name">
+        <input type="text" id="email1" class="fields" name="email" placeholder="Email Address" >
+        <input type="text" id="email2" class="fields" placeholder="Confirm Email Address" >
+        <input id="submit" type="button" onclick="verify()" value="submit"> <br></br>
+        <input type="text" id="question" class="fields" name="question" placeholder="Ask a question!">
+        <input id="submit" type="button" value="submit">
+     </form>
+     <script>
+     function verify()
+   {
+   if(document.getElementById("email1").value === document.getElementById("email2").value) {
+   
+       alert("matched")
+   
+   } else {
+      document.getElementById("submit");
+      alert("not matched")
+     }
+   
+   }
+   
+     </script>
+       </div>
+
+ </form> 
+</script>
+</aside>
+    </div>
+</div>
+
+    <!-- FOOTER -->
+<div id="footer">
+<footer>
+    <p>
+        <a href="mailto:mnesb22@wgu.edu">Email us</a>
+        <a href="works_cited.html" target="_blank">Sources</a> <br></br>
+        <a href="https://www.michigan.gov/som" target="_blank">Click for more information!</a>
+    </p>
+</footer>
+</div>
+
+</body>
+</html>
